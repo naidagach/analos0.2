@@ -9,7 +9,7 @@ function Header() {
     return (
         <div className='bg-[#020604]/60 backdrop-blur-md fixed top-0 right-0 left-0 z-1'>
             <div className='opacity-90 border-b border-[#0c3424]'>
-                <nav className='max-w-[1280px] mx-auto flex justify-between items-center gap-2 p-4'>
+                <nav className='container mx-auto flex justify-between items-center gap-2 p-4'>
                     <a href='/' className='flex items-center justify-between gap-2'>
                         <div className="w-10 h-10 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-rocket w-6 h-6 text-white" aria-hidden="true">

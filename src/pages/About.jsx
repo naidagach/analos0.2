@@ -3,11 +3,11 @@ import React from 'react'
 function About() {
 
     return (
-        <div className='bg-[#020604] p-4 pt-32'>
-            <div class="container mx-auto text-center mb-20 opacity-[1]">
-                <div class="mb-6">
-                    <div class="w-24 h-24 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-3xl flex items-center justify-center mx-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket w-12 h-12 text-white" aria-hidden="true">
+        <div className='bg-[#020604] p-4 py-32'>
+            <div className="container mx-auto text-center mb-20 opacity-[1]">
+                <div className="pop-in mb-6">
+                    <div className="w-24 h-24 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-3xl flex items-center justify-center mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-rocket w-12 h-12 text-white" aria-hidden="true">
                             <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
                             <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
                             <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
@@ -15,58 +15,58 @@ function About() {
                         </svg>
                     </div>
                 </div>
-                <h1 class="text-white mb-6">About Analos0.2</h1>
-                <p class="text-white/70 text-xl max-w-3xl mx-auto">Analos0.2 is not just a memecoin, it's a movement. We're creating a new standard by combining fun and profit in the crypto world.</p>
+                <h1 className="text-white mb-6">About Analos0.2</h1>
+                <p className="text-white/70 text-xl max-w-3xl mx-auto">Analos0.2 is not just a memecoin, it's a movement. We're creating a new standard by combining fun and profit in the crypto world.</p>
             </div>
-            <section className='max-w-[1280px] mx-auto'>
-                <div className='grid grid-cols-1 s:grid-cols-2 gap-4'>
-                    <div className='bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
-                        <div class="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-7 h-7 text-white" aria-hidden="true">
+            <section className='container mx-auto'>
+                <div className='grid grid-cols-1 s:grid-cols-2 m:grid-cols-4 gap-4'>
+                    <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
+                        <div className="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-target w-7 h-7 text-white" aria-hidden="true">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <circle cx="12" cy="12" r="6"></circle>
                                 <circle cx="12" cy="12" r="2"></circle>
                             </svg>
                         </div>
-                        <h3 class="text-white mb-2">Mission</h3>
-                        <p class="text-white/70">To be the most fun and profitable memecoin in the crypto world</p>
+                        <h3 className="text-white mb-2">Mission</h3>
+                        <p className="text-white/70">To be the most fun and profitable memecoin in the crypto world</p>
                     </div>
-                    <div className='bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
-                        <div class="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-7 h-7 text-white" aria-hidden="true">
+                    <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
+                        <div className="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-target w-7 h-7 text-white" aria-hidden="true">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <circle cx="12" cy="12" r="6"></circle>
                                 <circle cx="12" cy="12" r="2"></circle>
                             </svg>
                         </div>
-                        <h3 class="text-white mb-2">Community</h3>
-                        <p class="text-white/70">Growing together with a strong and active community</p>
+                        <h3 className="text-white mb-2">Community</h3>
+                        <p className="text-white/70">Growing together with a strong and active community</p>
                     </div>
-                    <div className='bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
-                        <div class="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-7 h-7 text-white" aria-hidden="true">
+                    <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
+                        <div className="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-target w-7 h-7 text-white" aria-hidden="true">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <circle cx="12" cy="12" r="6"></circle>
                                 <circle cx="12" cy="12" r="2"></circle>
                             </svg>
                         </div>
-                        <h3 class="text-white mb-2">Growth</h3>
-                        <p class="text-white/70">To the moon with rapid growth potential</p>
+                        <h3 className="text-white mb-2">Growth</h3>
+                        <p className="text-white/70">To the moon with rapid growth potential</p>
                     </div>
-                    <div className='bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
-                        <div class="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target w-7 h-7 text-white" aria-hidden="true">
+                    <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
+                        <div className="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-target w-7 h-7 text-white" aria-hidden="true">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <circle cx="12" cy="12" r="6"></circle>
                                 <circle cx="12" cy="12" r="2"></circle>
                             </svg>
                         </div>
-                        <h3 class="text-white mb-2">Security</h3>
-                        <p class="text-white/70">Liquidity locked and secure smart contract</p>
+                        <h3 className="text-white mb-2">Security</h3>
+                        <p className="text-white/70">Liquidity locked and secure smart contract</p>
                     </div>
                 </div>
             </section>
-            <section className='max-w-[1280px] mx-auto my-20'>
+            <section className='container mx-auto my-20'>
                 <div className='bg-linear-to-r from-[#0ea674]/20 to-[#17ff9a]/20 backdrop-blur-lg rounded-3xl p-8 md:p-12 border border-[#0ea674]/30'>
                     <p className='text-white mb-8 text-center'>Tokenomics</p>
                     <div className='flex flex-col s:flex-row s:justify-around gap-4 justify-center items-center'>
@@ -101,99 +101,99 @@ function About() {
                     </div>
                 </div>
             </section>
-            <section className='max-w-[1280px] mx-auto'>
+            <section className='container mx-auto'>
                 <p className='text-white mb-12 text-center'>Roadmap</p>
                 <div className='grid grid-cols-1 s:grid-cols-2 gap-4'>
-                    <div className='bg-linear-to-r from-[#071510] to-[#0a2516] backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] duration-300'>
-                        <h3 class="text-[#17ff9a] mb-2">Phase 1</h3>
-                        <p class="text-white mb-4">Launch</p>
+                    <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] duration-300'>
+                        <h3 className="text-[#17ff9a] mb-2">Phase 1</h3>
+                        <p className="text-white mb-4">Launch</p>
                         <div className='flex flex-col gap-2'>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>Contract Deployment</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>Website Launch</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>Social Media Setup</p>
                             </div>
                         </div>
                     </div>
-                    <div className='bg-linear-to-r from-[#071510] to-[#0a2516] backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] duration-300'>
-                        <h3 class="text-[#17ff9a] mb-2">Phase 2</h3>
-                        <p class="text-white mb-4">Growth</p>
+                    <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] duration-300'>
+                        <h3 className="text-[#17ff9a] mb-2">Phase 2</h3>
+                        <p className="text-white mb-4">Growth</p>
                         <div className='flex flex-col gap-2'>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>Marketing Campaign</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>Community Building</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>Partnership Deals</p>
                             </div>
                         </div>
                     </div>
-                    <div className='bg-linear-to-r from-[#071510] to-[#0a2516] backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] duration-300'>
-                        <h3 class="text-[#17ff9a] mb-2">Phase 3</h3>
-                        <p class="text-white mb-4">Expansion</p>
+                    <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] duration-300'>
+                        <h3 className="text-[#17ff9a] mb-2">Phase 3</h3>
+                        <p className="text-white mb-4">Expansion</p>
                         <div className='flex flex-col gap-2'>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>CEX Listings</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>Global Marketing</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>NFT Collection</p>
                             </div>
                         </div>
                     </div>
-                    <div className='bg-linear-to-r from-[#071510] to-[#0a2516] backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] duration-300'>
-                        <h3 class="text-[#17ff9a] mb-2">Phase 4</h3>
-                        <p class="text-white mb-4">Future</p>
+                    <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] duration-300'>
+                        <h3 className="text-[#17ff9a] mb-2">Phase 4</h3>
+                        <p className="text-white mb-4">Future</p>
                         <div className='flex flex-col gap-2'>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>Ecosystem Development</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>DAO Governance</p>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-check w-5 h-5 text-[#17ff9a] shrink-0 mt-0.5" aria-hidden="true">
                                     <path d="M20 6 9 17l-5-5"></path>
                                 </svg>
                                 <p className='text-[#b6bdb9]'>To The Moon</p>

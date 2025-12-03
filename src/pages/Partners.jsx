@@ -1,15 +1,15 @@
 import React from 'react'
-import { partners } from '../../db';
+import { partners } from '/db';
 import { Link } from 'react-router-dom';
 
 function Partners() {
 
     return (
-        <div className='bg-[#020604] p-4 pt-32'>
-            <div class="container mx-auto text-center mb-20 opacity-[1]">
-                <div class="mb-6">
-                    <div class="w-24 h-24 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-3xl flex items-center justify-center mx-auto">
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-handshake w-12 h-12 text-white" aria-hidden="true">
+        <div className='bg-[#020604] p-4 py-32'>
+            <div className="container mx-auto text-center mb-20 opacity-[1]">
+                <div className="pop-in mb-6">
+                    <div className="w-24 h-24 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-3xl flex items-center justify-center mx-auto">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-handshake w-12 h-12 text-white" aria-hidden="true">
 							<path d="m11 17 2 2a1 1 0 1 0 3-3"></path>
 							<path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"></path>
 							<path d="m21 3 1 11h-2"></path>
@@ -18,8 +18,8 @@ function Partners() {
 						</svg>
                     </div>
                 </div>
-                <h1 class="text-white mb-6">Our Partners</h1>
-                <p class="text-white/70 text-xl max-w-3xl mx-auto">Trusted by the best platforms in the crypto ecosystem</p>
+                <h1 className="text-white mb-6">Our Partners</h1>
+                <p className="text-white/70 text-xl max-w-3xl mx-auto">Trusted by the best platforms in the crypto ecosystem</p>
             </div>
 			<section className="overflow-hidden w-full">
 				<div className="flex w-max animate-marquee">
@@ -34,11 +34,11 @@ function Partners() {
 					))}
 				</div>
 			</section>
-			<section className='py-20'>
-				<div class="flex flex-col items-center justify-center w-[70%] mx-auto bg-linear-to-r from-[#0ea674] to-[#17ff9a] rounded-3xl p-12">
-					<h2 class="text-white mb-4">Want to Partner With Us?</h2>
-					<p class="text-white/90 mb-8 max-w-2xl mx-auto">Join our growing network of partners and be part of the revolution</p>
-					<Link to={'/social'} class="px-8 py-4 bg-white text-[#0ea674] rounded-xl">Contact Us</Link>
+			<section className='pt-20'>
+				<div className="flex flex-col text-center items-center justify-center m:w-[70%] mx-auto bg-linear-to-r from-[#0ea674] to-[#17ff9a] rounded-3xl p-12">
+					<h2 className="text-white mb-4">Want to Partner With Us?</h2>
+					<p className="text-white/90 mb-8 max-w-2xl mx-auto">Join our growing network of partners and be part of the revolution</p>
+					<Link to={'/social'} className="px-8 py-4 bg-white text-[#0ea674] rounded-xl">Contact Us</Link>
 				</div>
 			</section>
         </div>
