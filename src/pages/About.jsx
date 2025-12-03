@@ -29,7 +29,10 @@ function About() {
                             </svg>
                         </div>
                         <h3 className="text-white mb-2">Mission</h3>
-                        <p className="text-white/70">To be the most fun and profitable memecoin in the crypto world</p>
+                        <p className="text-white/70">
+                            To be the most fun and profitable memecoin in the crypto world, offering unique experiences 
+                            for users while building a sustainable ecosystem and innovative tokenomics.
+                        </p>
                     </div>
                     <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
                         <div className="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
@@ -40,7 +43,10 @@ function About() {
                             </svg>
                         </div>
                         <h3 className="text-white mb-2">Community</h3>
-                        <p className="text-white/70">Growing together with a strong and active community</p>
+                        <p className="text-white/70">
+                            Growing together with a strong and active community, empowering holders to participate 
+                            in decision-making, share ideas, and contribute to the ecosystem's success.
+                        </p>
                     </div>
                     <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
                         <div className="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
@@ -51,7 +57,10 @@ function About() {
                             </svg>
                         </div>
                         <h3 className="text-white mb-2">Growth</h3>
-                        <p className="text-white/70">To the moon with rapid growth potential</p>
+                        <p className="text-white/70">
+                            To the moon with rapid growth potential, leveraging innovative strategies, strategic 
+                            partnerships, and constant development to maximize value for all holders.
+                        </p>
                     </div>
                     <div className='item bg-linear-to-r from-[#071510] to-[#0a2516] hover:bg-linear-to-r hover:from-[#0ea67340] hover:to-[#17ff9a40] hover:shadow-custom shadow-[#0ea674]/50 backdrop-blur-xl rounded-2xl p-8 border border-[#0ea674]/30 hover:border-[#0ea674] transition-all hover:translate-y-[-10px] hover:scale-[1.02] duration-400'>
                         <div className="w-14 h-14 bg-linear-to-br from-[#0ea674] to-[#17ff9a] rounded-xl flex items-center justify-center mb-4">
@@ -62,7 +71,10 @@ function About() {
                             </svg>
                         </div>
                         <h3 className="text-white mb-2">Security</h3>
-                        <p className="text-white/70">Liquidity locked and secure smart contract</p>
+                        <p className="text-white/70">
+                            Liquidity locked and secure smart contract, ensuring trust and safety for all users, 
+                            with measures in place to prevent hacks and safeguard funds at all times.
+                        </p>
                     </div>
                 </div>
             </section>
